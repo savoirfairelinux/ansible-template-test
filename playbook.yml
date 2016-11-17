@@ -1,0 +1,5 @@
+- name: foo
+  hosts: localhost
+  tasks:
+    - debug:
+        msg: "{{ lookup('template', 'foo.txt') }}"

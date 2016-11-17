@@ -1,0 +1,2 @@
+Hello, I'm foo!
+{% include 'bar.txt' %}
